@@ -1,0 +1,182 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:baselineAligned="false"
+    android:layout_gravity="center"
+    android:gravity="center"
+    xmlns:app1="http://schemas.android.com/apk/res/it.unibo.monitorhpc">
+    
+    <LinearLayout 
+        android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_weight="1"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:gravity="center">
+	    
+	    <TextView 
+	        android:id="@+id/main_text"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:singleLine="false"
+	        android:visibility="gone"/>
+	    
+	    <!-- <it.unibo.mobilecustomviews.tower.TowerPiece 
+	        android:id="@+id/towerpiece_1"
+	       	android:layout_width="300dp"
+	       	android:layout_height="240dp"
+	       	app1:piece_color="#FF0000"
+	       	app1:piece_width="300dp"
+	       	app1:piece_height="240dp"/>
+	    <it.unibo.mobilecustomviews.tower.TowerPiece 
+	        android:id="@+id/towerpiece_2"
+	       	android:layout_width="300dp"
+	       	android:layout_height="240dp"
+	       	app1:piece_color="#0000FF"
+	       	app1:piece_width="300dp"
+	       	app1:piece_height="240dp"/>
+	    <it.unibo.mobilecustomviews.tower.TowerPiece 
+	        android:id="@+id/towerpiece_3"
+	       	android:layout_width="300dp"
+	       	android:layout_height="240dp"
+	       	app1:piece_color="#00FF00"
+	       	app1:piece_width="300dp"
+	       	app1:piece_height="240dp"/>
+	    <it.unibo.mobilecustomviews.tower.TowerPiece 
+	        android:id="@+id/towerpiece_4"
+	       	android:layout_width="300dp"
+	       	android:layout_height="240dp"
+	       	app1:piece_color="#F0FF0F"
+	       	app1:piece_width="300dp"
+	       	app1:piece_height="240dp"/> -->
+	       	
+	    <it.unibo.mobilecustomviews.tower.CompositeTowerPiece 
+	        android:id="@+id/towerpiece_1"
+	       	android:layout_width="300dp"
+	       	android:layout_height="240dp"
+	       	app1:composite_raspberry1_name="rasp1"
+	       	app1:composite_raspberry2_name="rasp2"
+	       	app1:composite_text_size="15sp"
+	       	app1:composite_color="#FF0000"
+	       	app1:composite_width="300dp"
+	       	app1:composite_height="240dp"/>
+	    <it.unibo.mobilecustomviews.tower.CompositeTowerPiece 
+	        android:id="@+id/towerpiece_2"
+	       	android:layout_width="300dp"
+	       	android:layout_height="240dp"
+	       	app1:composite_raspberry1_name="rasp3"
+	       	app1:composite_raspberry2_name="rasp4"
+	       	app1:composite_text_size="15sp"
+	       	app1:composite_color="#0000FF"
+	       	app1:composite_width="300dp"
+	       	app1:composite_height="240dp"/>
+	    <it.unibo.mobilecustomviews.tower.CompositeTowerPiece 
+	        android:id="@+id/towerpiece_3"
+	       	android:layout_width="300dp"
+	       	android:layout_height="240dp"
+	       	app1:composite_raspberry1_name="rasp5"
+	       	app1:composite_raspberry2_name="rasp6"
+	       	app1:composite_text_size="15sp"
+	       	app1:composite_color="#00FF00"
+	       	app1:composite_width="300dp"
+	       	app1:composite_height="240dp"/>
+	    <it.unibo.mobilecustomviews.tower.CompositeTowerPiece 
+	        android:id="@+id/towerpiece_4"
+	       	android:layout_width="300dp"
+	       	android:layout_height="240dp"
+	       	app1:composite_raspberry1_name="rasp7"
+	       	app1:composite_raspberry2_name="rasp8"
+	       	app1:composite_text_size="15sp"
+	       	app1:composite_color="#F0FF0F"
+	       	app1:composite_width="300dp"
+	       	app1:composite_height="240dp"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_weight="1"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:gravity="center">
+    
+	    <!-- <it.unibo.mobilecustomviews.tower.TowerPiece 
+	        android:id="@+id/towerpiece_5"
+	       	android:layout_width="300dp"
+	       	android:layout_height="240dp"
+	       	app1:piece_color="#FF0000"
+	       	app1:piece_width="300dp"
+	       	app1:piece_height="240dp"/>
+	    <it.unibo.mobilecustomviews.tower.TowerPiece 
+	        android:id="@+id/towerpiece_6"
+	       	android:layout_width="300dp"
+	       	android:layout_height="240dp"
+	       	app1:piece_color="#0000FF"
+	       	app1:piece_width="300dp"
+	       	app1:piece_height="240dp"/>
+	    <it.unibo.mobilecustomviews.tower.TowerPiece 
+	        android:id="@+id/towerpiece_7"
+	       	android:layout_width="300dp"
+	       	android:layout_height="240dp"
+	       	app1:piece_color="#00FF00"
+	       	app1:piece_width="300dp"
+	       	app1:piece_height="240dp"/>
+	    <it.unibo.mobilecustomviews.tower.TowerPiece 
+	        android:id="@+id/towerpiece_8"
+	       	android:layout_width="300dp"
+	       	android:layout_height="240dp"
+	       	app1:piece_color="#F0FF0F"
+	       	app1:piece_width="300dp"
+	       	app1:piece_height="240dp"/> -->
+	       	
+	    <it.unibo.mobilecustomviews.tower.CompositeTowerPiece 
+	        android:id="@+id/towerpiece_5"
+	       	android:layout_width="300dp"
+	       	android:layout_height="240dp"
+	       	app1:composite_raspberry1_name="rasp9"
+	       	app1:composite_raspberry2_name="rasp10"
+       		app1:composite_text_size="15sp"
+	       	app1:composite_color="#FF0000"
+	       	app1:composite_width="300dp"
+	       	app1:composite_height="240dp"/>
+	    <it.unibo.mobilecustomviews.tower.CompositeTowerPiece 
+	        android:id="@+id/towerpiece_6"
+	       	android:layout_width="300dp"
+	       	android:layout_height="240dp"
+	       	app1:composite_raspberry1_name="rasp11"
+	       	app1:composite_raspberry2_name="rasp12"
+	       	app1:composite_text_size="15sp"
+	       	app1:composite_color="#0000FF"
+	       	app1:composite_width="300dp"
+	       	app1:composite_height="240dp"/>
+
+	    <it.unibo.mobilecustomviews.tower.CompositeTowerPiece 
+	        android:id="@+id/towerpiece_7"
+	       	android:layout_width="300dp"
+	       	android:layout_height="240dp"
+	       	app1:composite_raspberry1_name="rasp13"
+	       	app1:composite_raspberry2_name="rasp14"
+	       	app1:composite_text_size="15sp"
+	       	app1:composite_color="#00FF00"
+	       	app1:composite_width="300dp"
+	       	app1:composite_height="240dp"/>
+	    <it.unibo.mobilecustomviews.tower.CompositeTowerPiece 
+	        android:id="@+id/towerpiece_8"
+	       	android:layout_width="300dp"
+	       	android:layout_height="240dp"
+	       	app1:composite_raspberry1_name="rasp15"
+	       	app1:composite_raspberry2_name="rasp16"
+	       	app1:composite_text_size="15sp"
+	       	app1:composite_color="#F0FF0F"
+	       	app1:composite_width="300dp"
+	       	app1:composite_height="240dp"/>
+        
+    </LinearLayout>
+
+</LinearLayout>
+

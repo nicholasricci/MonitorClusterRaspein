@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Monitor HPC Raspbein</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- Menu Actions -->
+    <string name="action_settings">Settings</string>
+    <string name="action_zoom_select">Zoom Select</string>
+    
+    <!-- Dialog Menu Zoom -->
+    <string name="zoom_one_tower_piece">One Piece</string>
+    <string name="zoom_two_tower_piece">Two Piece</string>
+    <string name="zoom_four_tower_piece">Four Piece</string>
+    <string name="zoom_eight_tower_piece">Eight Piece</string>
+    <string name="zoom_sixteen_tower_piece">Sixteen Piece</string>
+    
+    <!-- Choose Mode Actitivy -->
+    <string name="choosemode_server">Server mode through internet</string>
+    <string name="choosemode_bluetooth">Bluetooth mode</string>
+    
+    <!-- Preferences -->
+    <string name="preferences_file">MyPreference</string>
+    <string name="preferences_confirm">Confirm</string>
+    
+    <string name="preference_key_speed_movement">speed_movement</string>
+    <string name="preference_title_speed_movement">Speed Movement</string>
+    <string name="preference_summary_speed_movement">Insert seconds for speed that you want to move</string>
+    
+    <string name="preference_key_zoom">zoom_preference</string>
+    <string name="preference_title_zoom">Default Zoom</string>
+    <string name="preference_summary_zoom">Choose a default zoom</string>
+    <string-array name="preference_entries_zoom">
+        <item>One tower piece</item>
+        <item>Two tower pieces</item>
+        <item>Four tower pieces</item>
+        <item>Eight tower pieces</item>
+        <item>Sixteen tower pieces</item>
+    </string-array>
+    <string-array name="preference_entries_values_zoom">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+    </string-array>
+    
+    <string name="preference_key_network_refresh">network_refresh</string>
+    <string name="preference_title_network_refresh">Network refresh</string>
+    <string name="preference_summary_network_refresh">Insert minutes for network refresh</string>
+
+</resources>

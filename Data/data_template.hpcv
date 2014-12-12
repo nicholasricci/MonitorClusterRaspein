@@ -1,0 +1,44 @@
+{
+	<nome_raspberry_1>:{ temperatura:X,
+						clock:Y,
+						network:{ up:S,
+								  down:G },
+						ram: { tot:T, 
+							   used:U },
+						procload:{ <cpu_1>: P1,
+								   <cpu_2>: P2,
+									   ...
+								   <cpu_n>: PN },
+						sd:{ tot:T,
+							 used:U }
+						},
+	<nome_raspberry_2>:{
+						temperatura:X,
+						clock:Y,
+						network:{ up:S,
+								  down:G },
+						ram: { tot:T, 
+							   used:U },
+						procload:{ <cpu_1>: P1,
+								   <cpu_2>: P2,
+									   ...
+								   <cpu_n>: PN },
+						sd:{ tot:T,
+							 used:U }
+						},
+		........
+	<nome_raspberry_n>:{
+						temperatura:X,
+						clock:Y,
+						network:{ up:S,
+								  down:G },
+						ram: { tot:T, 
+							   used:U },
+						procload:{ <cpu_1>: P1,
+								   <cpu_2>: P2,
+									   ...
+								   <cpu_n>: PN },
+						sd:{ tot:T,
+							 used:U }
+						}
+}

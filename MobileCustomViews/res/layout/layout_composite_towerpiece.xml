@@ -1,0 +1,31 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <it.unibo.mobilecustomviews.tower.TowerPiece
+        android:id="@+id/_towerpiece"
+        android:layout_width="241dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="20dp"
+        app:piece_width="240dp"
+        app:piece_height="150dp"
+        app:piece_coordinate_left="0dp"
+        app:piece_distance_from_border="10dp" />
+
+    <it.unibo.mobilecustomviews.indicators.Temperature
+        android:id="@+id/_temperature"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/_towerpiece"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="13dp"
+        app:temperature_width="20dp"
+        app:temperature_height="40dp"
+        app:temperature_width_for_text="20dp"
+        app:temperature_text_size="10sp" />
+    
+    
+</RelativeLayout>

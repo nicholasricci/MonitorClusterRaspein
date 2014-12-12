@@ -1,0 +1,9 @@
+{
+	id: I,
+	temperatura:X,
+	clock:Y,
+	network:{ up:S, down:G },
+	ram: { tot:T, used:U },
+	procload:{ 1: P1, 2: P2, ..., n: PN },
+	sd:{ tot:T, used:U }
+}

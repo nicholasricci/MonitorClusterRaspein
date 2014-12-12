@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TowerPiece">
+        <attr name="piece_width" format="dimension" />
+        <attr name="piece_height" format="dimension" />
+        <attr name="piece_distance_between_raspberry" format="dimension" />
+        <attr name="piece_distance_from_border" format="dimension" />
+        <attr name="piece_color" format="color" />
+        <attr name="piece_text_size" format="dimension" />
+        <attr name="piece_coordinate_left" format="dimension" />
+        <attr name="piece_coordinate_top" format="dimension" />
+        <attr name="piece_rasp1_name" format="string" />
+        <attr name="piece_rasp2_name" format="string" />
+    </declare-styleable>
+    
+    <declare-styleable name="Temperature">
+        <attr name="temperature_width" format="dimension" />
+        <attr name="temperature_height" format="dimension" />
+        <attr name="temperature_width_for_text" format="dimension" />
+        <attr name="temperature_color_min_value" format="color" />
+        <attr name="temperature_color_max_value" format="color" />
+        <attr name="temperature_min_value" format="float" />
+        <attr name="temperature_max_value" format="float" />
+        <attr name="temperature_text_size" format="dimension" />
+        <attr name="temperature_text_color" format="color" />
+        <attr name="temperature_color_line_min_max" format="color" />
+        <attr name="temperature_color_line_current" format="color" />
+        <attr name="temperature_line_width" format="integer" />
+    </declare-styleable>
+    
+    <declare-styleable name="Speedometer">
+        <attr name="speedometer_width" format="dimension" />
+        <attr name="speedometer_height" format="dimension" />
+        <attr name="speedometer_color_min_value" format="color" />
+        <attr name="speedometer_color_max_value" format="color" />
+        <attr name="speedometer_min_value" format="float" />
+        <attr name="speedometer_max_value" format="float" />
+        <attr name="speedometer_text_size" format="dimension" />
+        <attr name="speedometer_text_color" format="color" />
+        <attr name="speedometer_color_line_min_max" format="color" />
+        <attr name="speedometer_color_line_current" format="color" />
+        <attr name="speedometer_line_width" format="integer" />
+    </declare-styleable>
+    
+    <declare-styleable name="CompositeTowerPiece">
+        <!-- For the normal use -->
+        <attr name="composite_width" format="dimension" />
+        <attr name="composite_height" format="dimension" />
+        <attr name="composite_distance_between_raspberry" format="dimension" />
+        <attr name="composite_distance_from_border" format="dimension" />
+        <attr name="composite_color" format="color" />
+        <attr name="composite_text_size" format="dimension" />
+        <attr name="composite_coordinate_left" format="dimension" />
+        <attr name="composite_coordinate_top" format="dimension" />
+        <attr name="composite_raspberry1_name" format="string" />
+        <attr name="composite_raspberry2_name" format="string" />
+        
+        <!-- For temperature -->
+        <attr name="composite_temperature_width" format="dimension" />
+        <attr name="composite_temperature_height" format="dimension" />
+        <attr name="composite_temperature_width_for_text" format="dimension" />
+        <attr name="composite_temperature_color_min_value" format="color" />
+        <attr name="composite_temperature_color_max_value" format="color" />
+        <attr name="composite_temperature_min_value" format="float" />
+        <attr name="composite_temperature_max_value" format="float" />
+        <attr name="composite_temperature_text_size" format="dimension" />
+        <attr name="composite_temperature_text_color" format="color" />
+        <attr name="composite_temperature_color_line_min_max" format="color" />
+        <attr name="composite_temperature_color_line_current" format="color" />
+        <attr name="composite_temperature_line_width" format="integer" />
+    </declare-styleable>
+    
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author Nicholas Ricci -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <TextView 
+        android:id="@+id/preferences_txt_speed_moovement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/preference_summary_speed_movement"/>
+    <EditText 
+        android:id="@+id/preferences_edt_speed_moovement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+	    android:layout_marginBottom="10dp"/>
+    
+	<TextView
+	    android:id="@+id/preferences_key_zoom"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/preference_title_zoom"/>
+	<TextView 
+	    android:id="@+id/preferences_value_zoom"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="10dp"/>
+	
+	<Button
+	    android:id="@+id/preferences_confirm"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/preferences_confirm"/>
+
+</LinearLayout>
